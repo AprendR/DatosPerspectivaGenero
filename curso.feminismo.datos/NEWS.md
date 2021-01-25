@@ -1,3 +1,8 @@
+# curso.feminismo.datos 0.1.1
+
+* Se arreglan los encabezados del excel de lectura
+* Se agregan los datos que forman parte del paquete
+
 # curso.feminismo.datos 0.1.0
 
 * Agrega `NEWS.md` archivo de seguimiento de cambios.

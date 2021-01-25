@@ -10,7 +10,7 @@ tmp.csv <- paste0(tempfile(), ".csv")
 tmp.xslx <- paste0(tempfile(), ".xlsx")
 url.base <- "https://raw.githubusercontent.com/AprendR/DatosPerspectivaGenero/main/Material/"
 url.csv <- "tdr05_brecha_hom_muj.csv?token=ABDSP4Y23CD7PQABPBW65X3AC6DMA"
-url.xlsx <- "BD_Fecundidad_Lectura.xlsx?token=ABDSP46QHDZKGMXAV7P2J63AC6LZU"
+url.xlsx <- "BD_Fecundidad_Lectura.xlsx?token=ABDSP43Y3V3XDLGWTY6DXHDAC63TG"
 gh(glue('GET {url.base}{url.csv}'), .destfile = tmp.csv, .overwrite = TRUE)
 gh(glue('GET {url.base}{url.xlsx}'), .destfile = tmp.xslx, .overwrite = TRUE)
 
@@ -42,5 +42,3 @@ spreadsheet_names %>%
   )
 name_object_string <- paste(c('brecha_data', fix_datasets_names), collapse = ', ')
 eval(parse(text = glue('usethis::use_data( {name_object_string}, overwrite = TRUE)')))
-
-
