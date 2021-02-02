@@ -23,4 +23,23 @@ Datos y documentación [aquí](https://github.com/MarcelaGuerra/violencia_famili
 
 - Datos de la COVID19 [aquí](https://www.gob.mx/salud/documentos/datos-abiertos-152127).
 
+# Instalación del paquete
 
+Para facilitar la exploración de los datos se ha generado el paquete `curso.feminismo.datos`. De momento no esta disponible
+en **CRAN** pero se puede instalar a partir de este repositorio. Primero es necesario instalar el paquete `remotes`.
+
+```r
+install.packages("remotes")
+```
+
+Con remotes instalado podemos instalar el paquete mediante:
+
+```r
+remotes::install_github(repo = 'AprendR/DatosPerspectivaGenero',subdir = 'curso.feminismo.datos')
+```
+
+Con el paquete instalado se necesita cargar la librería para poder utilizar la base de datos.
+
+# Material
+
+En caso de ser necesario los datos se encuentran en el directorio material en formato csv y/o excel, en su formato original.
