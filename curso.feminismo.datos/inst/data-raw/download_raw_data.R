@@ -6,16 +6,19 @@ library(readr)
 library(readxl)
 
 
-tmp.csv <- paste0(tempfile(), ".csv")
+brecha.tmp.csv <- paste0(tempfile(), "-brecha.csv")
+ile.tmp.csv <- paste0(tempfile(), "-ile.csv")
 tmp.xslx <- paste0(tempfile(), ".xlsx")
 url.base <- "https://raw.githubusercontent.com/AprendR/DatosPerspectivaGenero/main/Material/"
 url.csv <- "tdr05_brecha_hom_muj.csv?token=ABDSP4Y23CD7PQABPBW65X3AC6DMA"
 url.xlsx <- "BD_Fecundidad_Lectura.xlsx?token=ABDSP43Y3V3XDLGWTY6DXHDAC63TG"
-gh(glue('GET {url.base}{url.csv}'), .destfile = tmp.csv, .overwrite = TRUE)
+url.csv.ile <- "interrupcion-legal-del-embarazo.csv.gz?token=ABDSP4ZWQKNK2EXQF2V3UIDAD3V56"
+gh(glue('GET {url.base}{url.csv}'), .destfile = brecha.tmp.csv, .overwrite = TRUE)
 gh(glue('GET {url.base}{url.xlsx}'), .destfile = tmp.xslx, .overwrite = TRUE)
+gh(glue('GET {url.base}{url.csv.ile}'), .destfile = ile.tmp.csv, .overwrite = TRUE)
 
-brecha_data <- read_csv(file = tmp.csv, locale = readr::locale(encoding = "latin1"))
-
+brecha_data <- read_csv(file = brecha.tmp.csv, locale = readr::locale(encoding = "latin1"))
+ile_data <- read_csv(file = ile.tmp.csv, na = c(""))
 spreadsheet_names <- excel_sheets(tmp.xslx)
 
 fix_datasets_names <- c(
