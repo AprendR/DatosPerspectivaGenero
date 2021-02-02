@@ -1,3 +1,7 @@
+# curso.feminismo.datos 0.2.0
+
+- Agrega datos de Interrupción legal del embarazo
+
 # curso.feminismo.datos 0.1.2
 
 * Agrega documentación para dataset de nacimientos y brecha

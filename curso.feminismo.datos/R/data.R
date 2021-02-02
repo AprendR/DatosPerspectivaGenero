@@ -208,3 +208,16 @@
 #' @source \url{http://www.diamondse.info/}
 "tasa_fecundidad_residencia"
 
+#' Titulo del dataset.
+#'
+#' Descripción detallada del dataset
+#'
+#' @format Dimensiones del dataset
+#'
+#' \describe{
+#'   \item{Nombre Columna 1}{definition}
+#'   \item{Nombre Columna 2}{definition}
+#' }
+#'
+#' @source \url{http://www.diamondse.info/}
+"ile_data"
