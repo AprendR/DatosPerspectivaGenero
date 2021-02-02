@@ -1,6 +1,6 @@
 #' Base de datos de la breca de género
 #'
-#' Descripción detallada del cojunto de datos 
+#' Descripción detallada del cojunto de datos
 #'
 #' @format 165 renglones x 6 columnas
 #'
@@ -41,7 +41,7 @@
 #' @source \url{https://www.gob.mx/conapo/documentos/fecundidad-en-ninas-y-adolescentes-de-10-a-14-anos}
 "nacimiento_general"
 
-#' Nacimientis por lugar de residencia
+#' Nacimientos por lugar de residencia
 #'
 #' República Mexicana. Distribución porcentual de nacimientos en niñas y adolescentes de 10 a 14 años de edad por lugar de residencia, 1990-2019
 #'
@@ -73,7 +73,7 @@
 #' }
 #'
 #' @source \url{https://datos.gob.mx/busca/dataset/salud-sexual-y-reproductiva/resource/9b319164-181f-4da2-a935-604c9be4b156}
-"nacimiento_ocupacion_progenitor"
+"situacion_laboral_del_progenitor"
 
 #' Situación conyugal
 #'
@@ -93,7 +93,7 @@
 #' }
 #'
 #' @source \url{https://datos.gob.mx/busca/dataset/salud-sexual-y-reproductiva/resource/9b319164-181f-4da2-a935-604c9be4b156}
-"nacimiento_situacion_conyugal"
+"situacion_conyugal"
 
 #' Nacimientos por actividad económica de la madre
 #'
@@ -109,9 +109,9 @@
 #' }
 #'
 #' @source \url{https://datos.gob.mx/busca/dataset/salud-sexual-y-reproductiva/resource/9b319164-181f-4da2-a935-604c9be4b156}
-"nacimientos_actividad_economica"
+"actividad_economica_de_la_madre"
 
-#' Actividad económica de la madre
+#' Actividad económica de la padre
 #'
 #' República Mexicana. Distribución porcentual de nacimientos en niñas y adolescentes de 10 a 14 años de edad por condición de actividad económica, 1990-2019
 #'
@@ -125,7 +125,7 @@
 #' }
 #'
 #' @source \url{https://datos.gob.mx/busca/dataset/salud-sexual-y-reproductiva/resource/9b319164-181f-4da2-a935-604c9be4b156}
-"nacimientos_actividad_progenitor"
+"actividad_economica_del_progenitor"
 
 #' Edad del progenitor
 #'
@@ -145,7 +145,7 @@
 #' }
 #'
 #' @source \url{https://datos.gob.mx/busca/dataset/salud-sexual-y-reproductiva/resource/9b319164-181f-4da2-a935-604c9be4b156}
-"nacimientos_edad_progenitor"
+"edad_progenitor"
 
 #' Escolaridad de la madre
 #'
@@ -164,7 +164,7 @@
 #' }
 #'
 #' @source \url{https://datos.gob.mx/busca/dataset/salud-sexual-y-reproductiva/resource/9b319164-181f-4da2-a935-604c9be4b156}
-"nacimientos_escolaridad"
+"escolaridad_madre"
 
 #' Escolaridad de la padre
 #'
@@ -183,7 +183,7 @@
 #' }
 #'
 #' @source \url{https://datos.gob.mx/busca/dataset/salud-sexual-y-reproductiva/resource/9b319164-181f-4da2-a935-604c9be4b156}
-"nacimientos_escolaridad_progenitor"
+"escolaridad_progenitor"
 
 #' Situación laboral de la madre
 #'
@@ -201,7 +201,7 @@
 #' }
 #'
 #' @source \url{https://datos.gob.mx/busca/dataset/salud-sexual-y-reproductiva/resource/9b319164-181f-4da2-a935-604c9be4b156}
-"nacimientos_ocupacion"
+"situacion_laboral_madre"
 
 #' Número de hijos.
 #'
@@ -219,7 +219,7 @@
 #' }
 #'
 #' @source \url{https://datos.gob.mx/busca/dataset/salud-sexual-y-reproductiva/resource/9b319164-181f-4da2-a935-604c9be4b156}
-"nacimientos_orden_hijos"
+"numero_hijos"
 
 #' Agente_que_atendió
 #'
