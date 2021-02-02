@@ -41,60 +41,74 @@
 #' @source \url{https://www.gob.mx/conapo/documentos/fecundidad-en-ninas-y-adolescentes-de-10-a-14-anos}
 "nacimiento_general"
 
-#' Titulo del dataset.
+#' Nacimientis por lugar de residencia
 #'
 #' Descripción detallada del dataset
 #'
-#' @format Dimensiones del dataset
+#' @format 30 renglones x 4 columnas
 #'
 #' \describe{
-#'   \item{Nombre Columna 1}{definition}
-#'   \item{Nombre Columna 2}{definition}
+#'   \item{Año}{Año de registro}
+#'   \item{Área_rural}{Número de nacimientos por área rural}
+#'   \item{Área_urbana}{Número de nacimientos por área urbana}
+#'   \item{No_especificado}{Área no especificada}
 #' }
 #'
-#' @source \url{http://www.diamondse.info/}
+#' @source \url{https://datos.gob.mx/busca/dataset/salud-sexual-y-reproductiva/resource/9b319164-181f-4da2-a935-604c9be4b156}
 "nacimiento_lugar_residencia"
 
-#' Titulo del dataset.
+#' Nacimientos por ocupación del progenitor
 #'
 #' Descripción detallada del dataset
 #'
-#' @format Dimensiones del dataset
+#' @format 11 renglones x 6 columnas
 #'
 #' \describe{
-#'   \item{Nombre Columna 1}{definition}
-#'   \item{Nombre Columna 2}{definition}
+#'   \item{Año}{Año del registro}
+#'   \item{Quehaceres_hogar}{Porcentaje de progenitores que realizan quehaceres del hogar}
+#'   \item{Estudiante}{Porcentaje de progenitores que estan realizando estudios}
+#'   \item{Incapacitado_para_trabajar}{Porcentaje de progenitores incapacitados para trabajar}
+#'   \item{Jubilado_pensionado}{Porcentaje de progenitores jubilados y/o pensionados}
+#'   \item{Otra}{Progenitores que realizan otras actividades}
 #' }
 #'
-#' @source \url{http://www.diamondse.info/}
+#' @source \url{https://datos.gob.mx/busca/dataset/salud-sexual-y-reproductiva/resource/9b319164-181f-4da2-a935-604c9be4b156}
 "nacimiento_ocupacion_progenitor"
 
-#' Titulo del dataset.
+#' Nacimiento por situación conyugal
 #'
 #' Descripción detallada del dataset
 #'
-#' @format Dimensiones del dataset
+#' @format 30 renglones x 8 columnas
 #'
 #' \describe{
-#'   \item{Nombre Columna 1}{definition}
-#'   \item{Nombre Columna 2}{definition}
+#'   \item{Año}{Año del registro}
+#'   \item{Soltera}{Porcentaje de nacimientos }
+#'   \item{Casada}{Porcentaje de nacimientos con situación conyugal casada}
+#'   \item{Unión_libre}{Porcentaje de nacimientos con situación conyugal casada}
+#'   \item{Separada}{Porcentaje de nacimientos con situación conyugal separada}
+#'   \item{Divorciada}{Porcentaje de nacimientos con situación conyugal divorciada}
+#'   \item{Viuda}{Porcentaje de nacimientos con situación conyugal viuda}
+#'   \item{No_especificado}{Porcentaje de nacimientos con situación conyugal sin especificar}
 #' }
 #'
-#' @source \url{http://www.diamondse.info/}
+#' @source \url{https://datos.gob.mx/busca/dataset/salud-sexual-y-reproductiva/resource/9b319164-181f-4da2-a935-604c9be4b156}
 "nacimiento_situacion_conyugal"
 
-#' Titulo del dataset.
+#' Nacimientos por actividad económica
 #'
 #' Descripción detallada del dataset
 #'
-#' @format Dimensiones del dataset
+#' @format 30 renglones x 4 columnas
 #'
 #' \describe{
-#'   \item{Nombre Columna 1}{definition}
-#'   \item{Nombre Columna 2}{definition}
+#'   \item{Año}{Año del registro}
+#'   \item{Trabajo_remunerado}{Porcentaje de nacimientos cuyo progenitor tiene trabajo remunerado}
+#'   \item{Trabajo_no_remunerado}{Porcentaje de nacimientos cuyo progenitor tiene trabajo no remunerado}
+#'   \item{No_especificado}{Porcentaje de nacimientos cuyo progenitor no especifíca su fuente de trabajo}
 #' }
 #'
-#' @source \url{http://www.diamondse.info/}
+#' @source \url{https://datos.gob.mx/busca/dataset/salud-sexual-y-reproductiva/resource/9b319164-181f-4da2-a935-604c9be4b156}
 "nacimientos_actividad_economica"
 
 #' Titulo del dataset.
@@ -108,7 +122,7 @@
 #'   \item{Nombre Columna 2}{definition}
 #' }
 #'
-#' @source \url{http://www.diamondse.info/}
+#' @source \url{https://datos.gob.mx/busca/dataset/salud-sexual-y-reproductiva/resource/9b319164-181f-4da2-a935-604c9be4b156}
 "nacimientos_actividad_progenitor"
 
 #' Titulo del dataset.
@@ -122,7 +136,7 @@
 #'   \item{Nombre Columna 2}{definition}
 #' }
 #'
-#' @source \url{http://www.diamondse.info/}
+#' @source \url{https://datos.gob.mx/busca/dataset/salud-sexual-y-reproductiva/resource/9b319164-181f-4da2-a935-604c9be4b156}
 "nacimientos_edad_progenitor"
 
 #' Titulo del dataset.
@@ -136,7 +150,7 @@
 #'   \item{Nombre Columna 2}{definition}
 #' }
 #'
-#' @source \url{http://www.diamondse.info/}
+#' @source \url{https://datos.gob.mx/busca/dataset/salud-sexual-y-reproductiva/resource/9b319164-181f-4da2-a935-604c9be4b156}
 "nacimientos_escolaridad"
 
 #' Titulo del dataset.
@@ -150,7 +164,7 @@
 #'   \item{Nombre Columna 2}{definition}
 #' }
 #'
-#' @source \url{http://www.diamondse.info/}
+#' @source \url{https://datos.gob.mx/busca/dataset/salud-sexual-y-reproductiva/resource/9b319164-181f-4da2-a935-604c9be4b156}
 "nacimientos_escolaridad_progenitor"
 
 #' Titulo del dataset.
@@ -164,7 +178,7 @@
 #'   \item{Nombre Columna 2}{definition}
 #' }
 #'
-#' @source \url{http://www.diamondse.info/}
+#' @source \url{https://datos.gob.mx/busca/dataset/salud-sexual-y-reproductiva/resource/9b319164-181f-4da2-a935-604c9be4b156}
 "nacimientos_ocupacion"
 
 #' Titulo del dataset.
@@ -178,7 +192,7 @@
 #'   \item{Nombre Columna 2}{definition}
 #' }
 #'
-#' @source \url{http://www.diamondse.info/}
+#' @source \url{https://datos.gob.mx/busca/dataset/salud-sexual-y-reproductiva/resource/9b319164-181f-4da2-a935-604c9be4b156}
 "nacimientos_orden_hijos"
 
 #' Titulo del dataset.
@@ -192,7 +206,7 @@
 #'   \item{Nombre Columna 2}{definition}
 #' }
 #'
-#' @source \url{http://www.diamondse.info/}
+#' @source \url{https://datos.gob.mx/busca/dataset/salud-sexual-y-reproductiva/resource/9b319164-181f-4da2-a935-604c9be4b156}
 "registro_agente"
 
 #' Titulo del dataset.
@@ -206,7 +220,7 @@
 #'   \item{Nombre Columna 2}{definition}
 #' }
 #'
-#' @source \url{http://www.diamondse.info/}
+#' @source \url{https://datos.gob.mx/busca/dataset/salud-sexual-y-reproductiva/resource/9b319164-181f-4da2-a935-604c9be4b156}
 "registro_padres"
 
 #' Titulo del dataset.
@@ -220,7 +234,7 @@
 #'   \item{Nombre Columna 2}{definition}
 #' }
 #'
-#' @source \url{http://www.diamondse.info/}
+#' @source \url{https://datos.gob.mx/busca/dataset/salud-sexual-y-reproductiva/resource/9b319164-181f-4da2-a935-604c9be4b156}
 "tasa_fecundidad_residencia"
 
 #' Titulo del dataset.

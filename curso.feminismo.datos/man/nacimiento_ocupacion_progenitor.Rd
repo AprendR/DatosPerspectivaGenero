@@ -3,17 +3,21 @@
 \docType{data}
 \name{nacimiento_ocupacion_progenitor}
 \alias{nacimiento_ocupacion_progenitor}
-\title{Titulo del dataset.}
+\title{Nacimientos por ocupación del progenitor}
 \format{
-Dimensiones del dataset
+11 renglones x 6 columnas
 
 \describe{
-\item{Nombre Columna 1}{definition}
-\item{Nombre Columna 2}{definition}
+\item{Año}{Año del registro}
+\item{Quehaceres_hogar}{Porcentaje de progenitores que realizan quehaceres del hogar}
+\item{Estudiante}{Porcentaje de progenitores que estan realizando estudios}
+\item{Incapacitado_para_trabajar}{Porcentaje de progenitores incapacitados para trabajar}
+\item{Jubilado_pensionado}{Porcentaje de progenitores jubilados y/o pensionados}
+\item{Otra}{Progenitores que realizan otras actividades}
 }
 }
 \source{
-\url{http://www.diamondse.info/}
+\url{https://datos.gob.mx/busca/dataset/salud-sexual-y-reproductiva/resource/9b319164-181f-4da2-a935-604c9be4b156}
 }
 \usage{
 nacimiento_ocupacion_progenitor

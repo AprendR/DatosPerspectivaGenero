@@ -13,7 +13,7 @@ Dimensiones del dataset
 }
 }
 \source{
-\url{http://www.diamondse.info/}
+\url{https://datos.gob.mx/busca/dataset/salud-sexual-y-reproductiva/resource/9b319164-181f-4da2-a935-604c9be4b156}
 }
 \usage{
 tasa_fecundidad_residencia

@@ -3,17 +3,19 @@
 \docType{data}
 \name{nacimientos_actividad_economica}
 \alias{nacimientos_actividad_economica}
-\title{Titulo del dataset.}
+\title{Nacimientos por actividad económica}
 \format{
-Dimensiones del dataset
+30 renglones x 4 columnas
 
 \describe{
-\item{Nombre Columna 1}{definition}
-\item{Nombre Columna 2}{definition}
+\item{Año}{Año del registro}
+\item{Trabajo_remunerado}{Porcentaje de nacimientos cuyo progenitor tiene trabajo remunerado}
+\item{Trabajo_no_remunerado}{Porcentaje de nacimientos cuyo progenitor tiene trabajo no remunerado}
+\item{No_especificado}{Porcentaje de nacimientos cuyo progenitor no especifíca su fuente de trabajo}
 }
 }
 \source{
-\url{http://www.diamondse.info/}
+\url{https://datos.gob.mx/busca/dataset/salud-sexual-y-reproductiva/resource/9b319164-181f-4da2-a935-604c9be4b156}
 }
 \usage{
 nacimientos_actividad_economica

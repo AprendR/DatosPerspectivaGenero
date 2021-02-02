@@ -3,17 +3,19 @@
 \docType{data}
 \name{nacimiento_lugar_residencia}
 \alias{nacimiento_lugar_residencia}
-\title{Titulo del dataset.}
+\title{Nacimientis por lugar de residencia}
 \format{
-Dimensiones del dataset
+30 renglones x 4 columnas
 
 \describe{
-\item{Nombre Columna 1}{definition}
-\item{Nombre Columna 2}{definition}
+\item{Año}{Año de registro}
+\item{Área_rural}{Número de nacimientos por área rural}
+\item{Área_urbana}{Número de nacimientos por área urbana}
+\item{No_especificado}{Área no especificada}
 }
 }
 \source{
-\url{http://www.diamondse.info/}
+\url{https://datos.gob.mx/busca/dataset/salud-sexual-y-reproductiva/resource/9b319164-181f-4da2-a935-604c9be4b156}
 }
 \usage{
 nacimiento_lugar_residencia

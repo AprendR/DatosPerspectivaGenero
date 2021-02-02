@@ -3,17 +3,23 @@
 \docType{data}
 \name{nacimiento_situacion_conyugal}
 \alias{nacimiento_situacion_conyugal}
-\title{Titulo del dataset.}
+\title{Nacimiento por situación conyugal}
 \format{
-Dimensiones del dataset
+30 renglones x 8 columnas
 
 \describe{
-\item{Nombre Columna 1}{definition}
-\item{Nombre Columna 2}{definition}
+\item{Año}{Año del registro}
+\item{Soltera}{Porcentaje de nacimientos }
+\item{Casada}{Porcentaje de nacimientos con situación conyugal casada}
+\item{Unión_libre}{Porcentaje de nacimientos con situación conyugal casada}
+\item{Separada}{Porcentaje de nacimientos con situación conyugal separada}
+\item{Divorciada}{Porcentaje de nacimientos con situación conyugal divorciada}
+\item{Viuda}{Porcentaje de nacimientos con situación conyugal viuda}
+\item{No_especificado}{Porcentaje de nacimientos con situación conyugal sin especificar}
 }
 }
 \source{
-\url{http://www.diamondse.info/}
+\url{https://datos.gob.mx/busca/dataset/salud-sexual-y-reproductiva/resource/9b319164-181f-4da2-a935-604c9be4b156}
 }
 \usage{
 nacimiento_situacion_conyugal
