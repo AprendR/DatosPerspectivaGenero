@@ -34,9 +34,9 @@ spreadsheet_names <- excel_sheets(tmp.xslx)
 
 fix_datasets_names <- c(
   "nacimiento_general", "registro_padres", "registro_agente", "nacimiento_lugar_residencia", "tasa_fecundidad_residencia",
-  "nacimiento_situacion_conyugal", "nacimientos_actividad_economica", "nacimientos_ocupacion", "nacimientos_escolaridad",
-  "nacimientos_orden_hijos", "nacimientos_edad_progenitor", "nacimientos_actividad_progenitor", "nacimiento_ocupacion_progenitor",
-  "nacimientos_escolaridad_progenitor"
+  "situación_conyugal", "nacimientos_actividad_economica", "situación_laboral_madre", "escolaridad_madre",
+  "número_hijos", "edad_progenitor", "actividad_económica_de_la_madre", "situación_laboral_del_progenitor",
+  "escolaridad_progenitor"
 )
 
 spreadsheet_names %>%
