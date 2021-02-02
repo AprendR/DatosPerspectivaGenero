@@ -3,13 +3,16 @@
 \docType{data}
 \name{tasa_fecundidad_residencia}
 \alias{tasa_fecundidad_residencia}
-\title{Titulo del dataset.}
+\title{Tasa de fecunidad y residencia}
 \format{
-Dimensiones del dataset
+6 renglones x 5 columnas
 
 \describe{
-\item{Nombre Columna 1}{definition}
-\item{Nombre Columna 2}{definition}
+\item{Año}{Año del registro}
+\item{Área_rural_10-14...2}{Tasa de fecunidad de mujeres de 10-14 años en área rural}
+\item{Área_rural_12-14...3}{Tasa de fecunidad de mujeres de 12-14 añosen área rural}
+\item{Área_rural_10-14...4}{Tasa de fecunidad de mujeres de 10-14 años en área urbana}
+\item{Área_rural_12-14...5}{Tasa de fecunidad de mujeres de 12-14 añosen área urbana}
 }
 }
 \source{
@@ -19,6 +22,6 @@ Dimensiones del dataset
 tasa_fecundidad_residencia
 }
 \description{
-Descripción detallada del dataset
+República Mexicana. Tasa y razón de fecundidad en niñas y adolescentes de 10 a 14 años de edad por lugar de residencia, 2015-2020
 }
 \keyword{datasets}

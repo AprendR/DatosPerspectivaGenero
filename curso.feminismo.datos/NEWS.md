@@ -1,3 +1,7 @@
+# curso.feminismo.datos 0.2.1
+
+- Agrega ayuda del paquete en general y datos de autoría
+
 # curso.feminismo.datos 0.2.0
 
 - Agrega datos de Interrupción legal del embarazo

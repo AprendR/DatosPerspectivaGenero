@@ -3,7 +3,7 @@
 \docType{data}
 \name{brecha_data}
 \alias{brecha_data}
-\title{Base de datos de la breca de genero}
+\title{Base de datos de la breca de género}
 \format{
 165 renglones x 6 columnas
 
@@ -23,6 +23,6 @@
 brecha_data
 }
 \description{
-Descripción detallada del dataset
+Descripción detallada del cojunto de datos
 }
 \keyword{datasets}

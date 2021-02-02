@@ -3,7 +3,7 @@
 \docType{data}
 \name{nacimiento_general}
 \alias{nacimiento_general}
-\title{Base de dados de fecundidad anual por entidad}
+\title{Base de datos de fecundidad anual por entidad}
 \format{
 1023 renglones x 14 columnas
 

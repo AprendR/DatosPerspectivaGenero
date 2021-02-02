@@ -3,13 +3,16 @@
 \docType{data}
 \name{registro_agente}
 \alias{registro_agente}
-\title{Titulo del dataset.}
+\title{Agente_que_atendió}
 \format{
-Dimensiones del dataset
+30 renglones x 5 columnas
 
 \describe{
-\item{Nombre Columna 1}{definition}
-\item{Nombre Columna 2}{definition}
+\item{Año}{Año del registro}
+\item{Médico(a)}{Un(a) médico atendió el caso}
+\item{Enfermero(a)_partera}{Una enfermera o partera atendió el caso}
+\item{Otra}{Otro personal antedió el caso}
+\item{No_especificado}{No se especifica quién atendió}
 }
 }
 \source{
@@ -19,6 +22,6 @@ Dimensiones del dataset
 registro_agente
 }
 \description{
-Descripción detallada del dataset
+República Mexicana. Distribución porcentual de nacimientos en niñas y adolescentes de 10 a 14 años de edad por agente que atendió el parto, 1990-2019
 }
 \keyword{datasets}

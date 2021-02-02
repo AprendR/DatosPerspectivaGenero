@@ -3,13 +3,55 @@
 \docType{data}
 \name{ile_data}
 \alias{ile_data}
-\title{Titulo del dataset.}
+\title{Interrupción legal del embarazo en la DCMX}
 \format{
-Dimensiones del dataset
+76744 renglones x 45 columnas
 
 \describe{
-\item{Nombre Columna 1}{definition}
-\item{Nombre Columna 2}{definition}
+\item{id}{número de identificación}
+\item{ano}{año del registro}
+\item{mes}{definition}
+\item{clues_hospital}{definition}
+\item{fingreso}{definition}
+\item{autoref}{definition}
+\item{edocivil_descripcion}{definition}
+\item{edad}{definition}
+\item{desc_derechohab}{definition}
+\item{nivel_edu}{definition}
+\item{ocupacion}{definition}
+\item{religion}{definition}
+\item{parentesco}{definition}
+\item{entidad}{definition}
+\item{alc_o_municipio}{definition}
+\item{menarca}{definition}
+\item{fsexual}{definition}
+\item{fmenstrua}{definition}
+\item{sememb}{definition}
+\item{nhijos}{definition}
+\item{gesta}{definition}
+\item{naborto}{definition}
+\item{npartos}{definition}
+\item{ncesarea}{definition}
+\item{nile}{definition}
+\item{consejeria}{definition}
+\item{anticonceptivo}{definition}
+\item{c_fecha}{definition}
+\item{c_num}{definition}
+\item{motiles}{definition}
+\item{h_fingreso}{definition}
+\item{h_fegreso}{definition}
+\item{p_semgest}{definition}
+\item{p_diasgesta}{definition}
+\item{p_consent}{definition}
+\item{s_complica}{definition}
+\item{c_dolor}{definition}
+\item{tanalgesico}{definition}
+\item{cconsejo}{definition}
+\item{panticoncep}{definition}
+\item{fecha_cierre}{definition}
+\item{resultado_ile}{definition}
+\item{procile_simplificada}{definition}
+\item{procile}{definition}
 }
 }
 \source{
@@ -19,6 +61,6 @@ Dimensiones del dataset
 ile_data
 }
 \description{
-Descripción detallada del dataset
+En esta base encontrarás información acerca de los procedimientos de interrupción legal del embarazo (ILE) que se realizaron en las clínicas y hospitales de la Secretaría de Salud de la Ciudad de México a partir de 2016.
 }
 \keyword{datasets}

@@ -3,13 +3,18 @@
 \docType{data}
 \name{registro_padres}
 \alias{registro_padres}
-\title{Titulo del dataset.}
+\title{Declaración o registro de nacimiento}
 \format{
-Dimensiones del dataset
+11 renglones x 7 columnas
 
 \describe{
-\item{Nombre Columna 1}{definition}
-\item{Nombre Columna 2}{definition}
+\item{Año}{Año del registro}
+\item{Ambos}{definition}
+\item{Madre}{definition}
+\item{Padre}{definition}
+\item{Resgistrado}{definition}
+\item{Otra_persona}{definition}
+\item{No_especificado}{definition}
 }
 }
 \source{
@@ -19,6 +24,6 @@ Dimensiones del dataset
 registro_padres
 }
 \description{
-Descripción detallada del dataset
+República Mexicana. Distribución porcentual de nacimientos en niñas y adolescentes de 10 a 14 años de edad por persona que declaró el nacimiento, 1990-2019
 }
 \keyword{datasets}

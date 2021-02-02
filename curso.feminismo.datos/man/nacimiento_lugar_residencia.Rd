@@ -3,7 +3,7 @@
 \docType{data}
 \name{nacimiento_lugar_residencia}
 \alias{nacimiento_lugar_residencia}
-\title{Nacimientis por lugar de residencia}
+\title{Nacimientos por lugar de residencia}
 \format{
 30 renglones x 4 columnas
 
@@ -21,6 +21,6 @@
 nacimiento_lugar_residencia
 }
 \description{
-Descripción detallada del dataset
+República Mexicana. Distribución porcentual de nacimientos en niñas y adolescentes de 10 a 14 años de edad por lugar de residencia, 1990-2019
 }
 \keyword{datasets}

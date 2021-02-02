@@ -1,13 +1,15 @@
 Package: curso.feminismo.datos
-Title: What the Package Does (One Line, Title Case)
-Version: 0.2.0
+Title: Conjunto de datos para el curso de Feminismo de Datos
+Version: 0.2.1
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "info",
+           family = "AprendR",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+           email = "info@aprendr.org")
+Description: Este paquete recoge algunos conjuntos de datos abiertos que proporciona el gobierno mexicano que se usaran 
+  en el curso iintersemestral 2020-02 de Feminismo de datos en la facultad de Psicologia.
+  Contiene set de datos para fecundidad en niñas y adolescentes, brecha de genero e Interrupcion legal del embarazo.
+  Cada uno de estos paquetes puede tiene su apartado de ayuda con la descripción de sus componentes.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true

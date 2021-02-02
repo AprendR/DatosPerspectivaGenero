@@ -32,7 +32,7 @@ en **CRAN** pero se puede instalar a partir de este repositorio. Primero es nece
 install.packages("remotes")
 ```
 
-Con remotes instalado podemos instalar el paquete mediante:
+Con `remotes` instalado podemos instalar el paquete mediante:
 
 ```r
 remotes::install_github(repo = 'AprendR/DatosPerspectivaGenero',subdir = 'curso.feminismo.datos')
