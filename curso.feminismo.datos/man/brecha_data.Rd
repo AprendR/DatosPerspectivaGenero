@@ -3,17 +3,21 @@
 \docType{data}
 \name{brecha_data}
 \alias{brecha_data}
-\title{Titulo del dataset.}
+\title{Base de datos de la breca de genero}
 \format{
-Dimensiones del dataset
+165 renglones x 6 columnas
 
 \describe{
-\item{Nombre Columna 1}{definition}
-\item{Nombre Columna 2}{definition}
+\item{Entidad Federativa}{Nombre de la entidad federativa}
+\item{Periodo}{Año del registor}
+\item{Trimestre}{Número del trimestre del registro}
+\item{Brecha en el ingreso entre hombres y mujeres}{Diferencia en los ingresos entre hombres y mujeres}
+\item{Ingreso promedio por hora trabajada de la población ocupada de mujeres}{Promedio de ingreso del período}
+\item{Ingreso promedio porhora trabajada de la población ocupada de hombres}{Promedio de ingreso del período}
 }
 }
 \source{
-\url{http://www.diamondse.info/}
+\url{https://www.gob.mx/segob/prensa/presenta-conapo-publicacion-interseccionalidad-de-las-desigualdades-de-genero-en-mexico-un-analisis-para-el-seguimiento-de-los-ods}
 }
 \usage{
 brecha_data

@@ -3,17 +3,28 @@
 \docType{data}
 \name{nacimiento_general}
 \alias{nacimiento_general}
-\title{Titulo del dataset.}
+\title{Base de dados de fecundidad anual por entidad}
 \format{
-Dimensiones del dataset
+1023 renglones x 14 columnas
 
 \describe{
-\item{Nombre Columna 1}{definition}
-\item{Nombre Columna 2}{definition}
+\item{Año}{Año del registro}
+\item{Clave Entidad}{Identificador de la entidad}
+\item{Nacimientos 10-14}{Número de nacimientos entre 10 y 14 años}
+\item{Nacimientos 12-14}{Número de nacimietos entre 12 y 14 años}
+\item{Nacimientos 10}{Número de nacimientos a los 10 años}
+\item{Nacimientos 11}{Número de nacimientos a los 11 años}
+\item{Nacimientos 12}{Número de nacimientos a los 12 años}
+\item{Nacimientos 13}{Número de nacimientos a los 13 años}
+\item{Nacimientos 14}{Número de nacimientos a los 14 años}
+\item{Adoloscentes_10-14}{Número de adolescentes entre 10 y 14 años}
+\item{Adoloescentes_12-14}{Número de adolescentes entre 12 y 14 años}
+\item{Razón_fecundidad_10-14}{Proporcion de nacimientos entre 10 y 14 años}
+\item{Razón_fecundidad_12-14}{Proporcion de nacimientos entre 12 y 14 años}
 }
 }
 \source{
-\url{http://www.diamondse.info/}
+\url{https://www.gob.mx/conapo/documentos/fecundidad-en-ninas-y-adolescentes-de-10-a-14-anos}
 }
 \usage{
 nacimiento_general
